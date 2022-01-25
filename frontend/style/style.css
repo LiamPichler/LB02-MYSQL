@@ -1,0 +1,65 @@
+
+.done-button {
+  background-color: #3e43ff;
+  color: white;
+  border: none;
+  padding: 8px 20px 8px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222;
+  position: fixed;
+  top: 0;
+  width: 100.5%;
+  margin-left: -.5%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #3e43ff;
+}
+
+
+.content-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+body {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+
+}
+
+html {
+  font-family: roboto;
+}
